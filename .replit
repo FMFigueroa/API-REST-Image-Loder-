@@ -1,0 +1,9 @@
+# The default file opened in the editor.
+entrypoint = "index.js"
+run= "npm start"
+[packager]
+language = "nodejs"
+[packager.features]
+  packageSearch = true
+  guessImports = true
+  enabledForhosting = false
